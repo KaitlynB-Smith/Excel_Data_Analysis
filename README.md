@@ -181,8 +181,8 @@ The column 'event_year' is added to easily analyze landslide data.  This is acco
 ```
 =YEAR(event_date)
 ```
-
 ---
+
 # Data Exlporation
 
 ## Event Time Frame
@@ -242,8 +242,9 @@ When observing only countries with greater that 10 landslide events between 2007
 |---|---|
 | ![image](https://github.com/user-attachments/assets/f1c1a74c-c7d7-4adf-86f1-8b093c3ee2ca) | ![image](https://github.com/user-attachments/assets/156c16ff-bd6d-4244-b799-cd4c9547041f) |
 
+---
 
-
+# Data Visualizations
 
 
 
