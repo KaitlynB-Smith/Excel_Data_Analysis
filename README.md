@@ -246,5 +246,5 @@ When observing only countries with greater that 10 landslide events between 2007
 
 # Data Visualizations
 
-
-
+Visualizations for this analysis project were completed in Tableau.
+[Click here to view the complete Tableau Dashboard](https://public.tableau.com/views/GlobalLandslideData2007-2017_17389771779150/EventsByCountry?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
