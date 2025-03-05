@@ -183,7 +183,12 @@ The column 'event_year' is added to easily analyze landslide data.  This is acco
 ```
 ---
 
-# Data Exlporation
+# Data Exlporation and Visualization
+The purpose of this exploration is to identify trends and patterns in the landslide data and present key visualizations derived from the dataset. Excel functions and pivot tables are used to explore relationships and trends among the data.
+
+
+Tableau Dashboards are used to create interactive visualizations. Explore a selection of key graphs below, or view the complete interactive dashboard [here](https://public.tableau.com/views/GlobalLandslideData2007-2017_17389771779150/EventsByCountry?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+
 
 ## Event Time Frame
 This dataset observes landslide events between 2007 - 2017. 
@@ -197,6 +202,8 @@ This dataset observes landslide events between 2007 - 2017.
 | ![image](https://github.com/user-attachments/assets/f04301a0-0538-4cea-8eac-15a70a2561a8) | ![image](https://github.com/user-attachments/assets/20a63c69-22c2-4a52-89a6-a2cbb167c672) |
 | ![image](https://github.com/user-attachments/assets/1a33af4a-4d63-4e4b-b543-89ff6660ca5a) | ![image](https://github.com/user-attachments/assets/1ec98db6-d42b-48fd-b51e-efa003e55ff9) |
 
+![image](https://github.com/user-attachments/assets/f69c2c77-8380-4612-8611-b6f73bbe2726)
+
 ## Landslide Events by Country
 ### Country Count
 - There are 145 countries included in this datasest
@@ -205,22 +212,25 @@ This dataset observes landslide events between 2007 - 2017.
 |---|---|
 | ![image](https://github.com/user-attachments/assets/29d14c4b-ae3c-44fc-8fe4-306aaec6bac0) | ![image](https://github.com/user-attachments/assets/97ceef02-639f-407f-a82b-28ab79d80ce1) |
 
-### Top 5 Countries with the Most Landslide Events
-Pivot tables are used to determine the countries with the greatest total number of recorded landslide events.
+### Countries with the Greatest Number of Landslide Events
+Tables and treemaps are used to determine the countries with the greatest total number of recorded landslide events. The United States recorded 2.38 times as many landslide events than the next highest country (India).
 
-![image](https://github.com/user-attachments/assets/bd44461a-424a-44bf-8a87-ea3be597c199)
+![image](https://github.com/user-attachments/assets/a06502c2-8cf5-4f96-9542-e17db0412bee)
+
 
 ## Landslide Triggers
-Landslide events appear to be most often triggered by precipitation events. The five most and least common landslide event triggers are outlined in the following pivot tables. 
+Landslide events appear to be most often triggered by precipitation events. Additionally, downpours are associated with 84.5% of total recorded landslide events in 2010 (the year with the greatest number of landslide events). It is important to note that 15.4% of recorded landslide triggers are unknown, which could impact the rank of landslide triggers. 
 
-| Most Common Triggers | Least Common Triggers |
-|---|---|
-| ![image](https://github.com/user-attachments/assets/918a57df-8dec-4ccb-a023-8c5457f1f92b) | ![image](https://github.com/user-attachments/assets/f20a59c2-4ba0-4125-9965-0d4b85926a66) |
+![image](https://github.com/user-attachments/assets/fcba2532-f494-40dc-9730-708fe0f8219d)
+
 
 ## Landslide Sizes
 The sizes of landslide events are categorized into one of six classifications. Medium-sized events occurred most frequently, while catastrophic-sized events occurred least frequently.
 
-![image](https://github.com/user-attachments/assets/09a2a7ff-b3a2-49eb-8bd8-f87902013e2e)
+| Total Count | Annual Count |
+|---|---|
+| ![image](https://github.com/user-attachments/assets/09a2a7ff-b3a2-49eb-8bd8-f87902013e2e) | ![image](https://github.com/user-attachments/assets/f9226509-b95b-4fcb-8ad4-91840dd65dce) |
+
 
 ## Fatality Count
 In this dataset, there were a total of 30,622 recorded fatalities due to landslide events between 2007 - 2017. There was an average fatality count of 3.2 persons per landslide event.
@@ -230,21 +240,32 @@ In this dataset, there were a total of 30,622 recorded fatalities due to landsli
 | ![image](https://github.com/user-attachments/assets/3d820208-a735-40ca-b98f-ea536a205592) | ![image](https://github.com/user-attachments/assets/9e7720a1-aa14-40ea-aeb0-440c3bef3acb) |
 | ![image](https://github.com/user-attachments/assets/eca58833-2c28-43e2-a091-ca90f4fa4407) | ![image](https://github.com/user-attachments/assets/46725bef-c71e-4ca6-acb9-5b481c5da8e0) |
 
-The top 10 countries with the highest and lowest average fatality count per event are outlined in the following pivot tables. 
+The top 10 countries with the highest and lowest average fatality count per event are outlined in the tables below. 
 
 | Top 10 Countries - Highest Average Fatality Count Per Event | Top 10 Countries - Lowest Average Fatality Count Per Event |
 |---|---|
 | ![image](https://github.com/user-attachments/assets/e6cb8f77-ee07-4bbf-8ede-9a824aa08c85) | ![image](https://github.com/user-attachments/assets/4e8e84df-b621-4a1f-8ef6-061701d3bc31) |
 
-When observing only countries with greater that 10 landslide events between 2007 – 2017, the top 10 countries with the highest average fatality count per landslide event were:
+For countries with the highest average fatality counts, 8 of the 10 countries recorded fewer than 10 total landslides between 2007 - 2017. Further, all 10 countries recorded fewer than 10 events between 2007 - 2017 with 4 of them only recording 1 event. 
+
+When observing only countries with greater that 10 landslide events between 2007 – 2017, the top 10 countries with the highest average fatality count per landslide event are outlined in the table below. 
 
 | Top 10 Countries - Highest Average Fatality Count Per Event | Top 10 Countries - Lowest Average Fatality Count Per Event |
 |---|---|
 | ![image](https://github.com/user-attachments/assets/f1c1a74c-c7d7-4adf-86f1-8b093c3ee2ca) | ![image](https://github.com/user-attachments/assets/156c16ff-bd6d-4244-b799-cd4c9547041f) |
 
+Landslides categorized as very large in size account for the greatest total number of fatalities; however, fatalities per event are greatest for catastrophic-sized landslides. Additionally, the total fatality count was greatest for very large landslides in 2013, with 5,293 fatalities occurring. There were 33 very-large-sized landslides in 2013, indicating that a few events led to a high number of fatalities.
+
+![image](https://github.com/user-attachments/assets/7fd59fbf-f024-439c-a640-de648d9db36f)
+
+
 ---
 
-# Data Visualizations
+# Expanding the Analysis for Practical Insights
 
-Visualizations for this analysis project were completed in Tableau.
-[Click here to view the complete Tableau Dashboard](https://public.tableau.com/views/GlobalLandslideData2007-2017_17389771779150/EventsByCountry?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+To maximize the dataset's utility, future analysis could focus on:
+
+* Identifying country-specific landslide trigger profiles.
+* Pinpointing high-risk sub-national regions through localized frequency analysis.
+
+These insights counld assist in developing effective early warning systems and implementing targeted disaster preparedness measures.
